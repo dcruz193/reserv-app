@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+    mysql:
+        image: mysql:5.7
+        volumes: 
+            - app-mysql-data:/var/lib/mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: db_reservation 
+    backend:
+        build: ./backend
+        # command: php artisan migrate:fresh --seed
+        ports:
+            - 8000:80
+    frontend:
+        build: ./frontend
+        ports: 
+            - 8080:8080
+            
+volumes: 
+    app-mysql-data:

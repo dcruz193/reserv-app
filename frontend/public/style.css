@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  color: orange;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-primary {
+  background: orange;
+  color: white;
+}
+
+header {
+  background-color: orange;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+header h2 {
+  margin-left: 200px;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  position: a;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.search {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+}
+.search input {
+  height: 30px;
+  width: 330px;
+  border-radius: 5px;
+  margin-right: 4px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px;
+  min-width: 0;
+  width: 250px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.rooms {
+  padding: 20px;
+  width: 200px;
+}
+.rooms p {
+  padding-bottom: 5px;
+  font-size: large;
+  font-weight: 100;
+}
+
+.rooms ul {
+  list-style: none;
+}
+.rooms ul li {
+  padding-left: 20px;
+}
+.rooms ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.rooms ul li:hover {
+  background-color: rgba(255, 165, 0, 0.2);
+  color: white;
+}
+.rooms ul li:visited {
+  background-color: orange;
+  color: white;
+}
+
+.btn-reserv {
+  margin: 10px;
+  text-align: center;
+}
+.btn-reserv button {
+  bottom: 10px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  width: 100px;
+  padding: 5px;
+  border-color: orange;
+  border-radius: 5px;
+  border-style: solid;
+}
+button :disabled {
+  color: rgba(255, 165, 0, 0.1);
+  background-color: rgba(255, 165, 0, 0.1) !important;
+  border-color: rgba(255, 165, 0, 0.1);
+}
+
+.reserve {
+  margin: auto;
+}
+.reserve input {
+  margin-top: 5px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  padding: 5px;
+  color: #6c757d;
+}
+.table thead {
+  border: 1px solid gray;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.table tr td {
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}
+.table tbody tr:hover {
+  background-color: rgba(128, 128, 128, 0.3);
+  color: rgba(128, 128, 128, 0.9);
+  border: 1px solid rgba(255, 165, 0, 0.3);
+}
+
+.selected {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: white;
+}
+
+.tbl-reservations {
+  width: 60%;
+  text-align: center;
+  border: 1px solid gray;
+}
+.tbl-reservations thead {
+  background: lightgray;
+}
+.tbl-reservations tbody, .tbl-reservations th, .tbl-reservations td {
+  border-bottom: 1px solid gray;
+}
+.tbl-reservations th, .tbl-reservations td {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
